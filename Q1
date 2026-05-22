@@ -1,0 +1,18 @@
+
+{
+    funcao inicio()
+    {
+        inteiro A, B, troca
+
+        escreva("Digite o valor de A: ")
+         leia(A)
+        escreva("Digite o valor de B: ")
+         leia(B)
+        troca = A
+        A = B
+        B = troca
+        escreva("\nValores trocados:\n")
+        escreva("A = ", A, "\n")
+        escreva("B = ", B)
+    }
+}
