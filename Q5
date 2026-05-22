@@ -1,0 +1,30 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro a, b, c, troca
+
+        escreva("Digite o primeiro valor: ")
+         leia(a)
+
+        escreva("Digite o segundo valor: ")
+         leia(b)
+
+        escreva("Digite o terceiro valor: ")
+         leia(c)
+        se (a > b){
+            troca = a
+            a = b
+            b = troca}
+        se (a > c){
+            troca = a
+            a = c
+            c = troca}
+        se (b > c){
+            troca = b
+            b = c
+            c = troca}
+        escreva("\nValores em ordem crescente:\n")
+        escreva(a, " ", b, " ", c)
+    }
+}
