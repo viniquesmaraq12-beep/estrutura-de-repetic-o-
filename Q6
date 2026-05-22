@@ -1,0 +1,26 @@
+programa
+{
+    funcao inicio()
+    {
+        cadeia nome
+        real portugues, matematica, conhecimentos, media
+        escreva("Digite o nome do candidato: ")
+         leia(nome)
+
+        escreva("Nota de Português: ")
+         leia(portugues)
+
+        escreva("Nota de Matemática: ")
+         leia(matematica)
+
+        escreva("Nota de Conhecimentos Gerais: ")
+         leia(conhecimentos)
+
+        media = (portugues + matematica + conhecimentos) / 3
+        escreva("\nMédia: ", media, "\n")
+        se (media > 7.0 e portugues >= 5.0 e matematica >= 5.0 e conhecimentos >= 5.0){
+            escreva("Candidato aprovado!")}
+        senao {
+            escreva("Candidato reprovado!")}
+    }
+}
