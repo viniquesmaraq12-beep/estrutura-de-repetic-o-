@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+        real salario_atual, porcetagem, aumento, novo_salario
+
+     escreva("o salario_atual do funcionario (R$):  ")
+      leia(salario_atual)
+    escreva("a porcetagem de reajuste : ")
+      leia(porcetagem)
+  
+  aumento = salario_atual * (porcetagem / 100)
+  novo_salario= salario_atual + aumento
+
+    escreva(" reajuste salarial \n")
+    escreva(" valor do aumento:R$  \n, ", aumento)
+    escreva("novo salario com reajuste :R$ \n ",  novo_salario, "\n")
+
+    
+  }
+}
